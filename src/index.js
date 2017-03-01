@@ -1,9 +1,11 @@
+// import logo from './logo.svg';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
+import RecipeBoxContainer from './containers/RecipeBoxContainer';
 
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+    <RecipeBoxContainer />,
+    document.getElementById('root')
 );
