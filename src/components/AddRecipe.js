@@ -35,6 +35,9 @@ class AddRecipe extends Component{
 
     save(){
         let title = document.getElementById('title').value;
+        if(!title){
+          title = 'Untitled';
+        }
         let ingredient = document.getElementById('ingredients').value;
         let ingredients = ingredient.split(",");
 
